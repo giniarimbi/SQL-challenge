@@ -1,37 +1,20 @@
 ### SQL-challenge
 
 
-# Project Title: "Covid 19- Who will Suffer the Most?"
-
-## The recent global pandemic on COVID 19 motivated us to find out the preparedness of US health care facility in facing the outbreak.   
-
-## Objectives:
-### “Which US states will be the most vulnerable in facing Corona virus cases?”
-### To obtain growth rate for cases in global, selected countries, and US 
- * Using linear and exponential plot
-### Find correlation between infection cases with country population
- * Using scatter plot and linear regression 
-### Comparing the growth rate to availability of health facility (hospital bed per 1000 person) 
- * Using heat map and bubble map
-
-
-## Results and Analysis:
-
-
 ## I) Data Modeling
 
 ![](ERD-Employee_Database.png)
 
 ### File Output: ERD-Employee_Database.png
 
-### The above diagram show the relationship among table / CSV files. As can be seen, the unique code (or primary key) is located in "dept_no"
-under Departments database and "emp_no" under Employee database. Other database will use reference to those two. 
+## The above diagram show the relationship among table / CSV files. As can be seen, the unique code (or primary key) is located in "dept_no"
+## under Departments database and "emp_no" under Employee database. Other database will use reference to those two. 
 
 
 ## II) Data Analysis 
 ### File Output: schema2.sql
 
-### From the previous diagram in Data Modeling, we can create a table schema which specify the data type, primary key, and foreign key. 
+## From the previous diagram in Data Modeling, we can create a table schema which specify the data type, primary key, and foreign key. 
 
 
 ## III) Data Engineering
@@ -54,8 +37,8 @@ under Departments database and "emp_no" under Employee database. Other database 
 * 8) In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
 
 
-### It is worth noted that the same employee can be recorded more than one time and have more than one employee ID. The reason is that one employee can work in more than one department. 
-### A detail look at "from_date" and "start_date" column will show us the different duration that employee has worked on each departments.   
+* It is worth noted that the same employee can be recorded more than one time and have more than one employee ID. The reason is that one employee can work in more than one department. 
+* A detail look at "from_date" and "start_date" column will show us the different duration that employee has worked on each departments.   
 
 
 ## IV) Bonus
