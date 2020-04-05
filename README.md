@@ -14,7 +14,7 @@
 
 
 ## II) Data Analysis 
-### File Output: schema2.sql
+### File Output: schema.sql
 
 * From the previous diagram in Data Modeling, we can create a table schema which specify the data type, primary key, and foreign key. 
 
@@ -45,8 +45,8 @@
 
 
 ## IV) Bonus
+### File Output: SalaryHistogramBarChart.ipynb
 * Create histogram for employee salary range. 
-![](image_output/SalaryRange.png)
 
 * Create bar chart for salary per job title. 
 
